@@ -133,4 +133,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
+# Reset the prompt command to stop starship
+PROMPT_COMMAND=""
